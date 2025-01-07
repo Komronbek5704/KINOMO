@@ -11,7 +11,7 @@ import { store } from './store/store';
 
 /**setup axios */
 axios.defaults.baseURL = "https://api.themoviedb.org/3"
-axios.defaults.headers.common['Authorization'] = `Bearer ${process.env.REACT_APP_ACCESS_TOKEN}`
+axios.defaults.headers.common['Authorization'] = `Bearer ${"eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxOTk2ODhjM2YzMGI0ZGQ0YzNmMzM5ZDc4MjA5NTAyMCIsIm5iZiI6MTcyMzg0NTMxMi44NjcsInN1YiI6IjY2YmZjYWMwNTQ0NTk1ODk5MjQ5ZTc5ZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.BoFPjO5745Od6dhYxSXXJoSHYo5N8JtPB97ccwflFYs"}`
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
