@@ -1,0 +1,9 @@
+.scrolbar-none::-webkit-scrollbar{
+    display: none;
+}
+.red{
+    color: yellow;
+    size: 30px;
+    font: optional;
+    
+}
